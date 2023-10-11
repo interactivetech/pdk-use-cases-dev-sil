@@ -1,6 +1,11 @@
 name: PDK Object Detection Demo
 workspace: Andrew
 project: PDK Demo
+bind_mounts:
+- container_path:  /mnt/efs/shared_fs/determined/
+  host_path:  /mnt/efs/shared_fs/determined/
+  propagation: rprivate
+  read_only: false
 data:
     pachyderm:
         host:

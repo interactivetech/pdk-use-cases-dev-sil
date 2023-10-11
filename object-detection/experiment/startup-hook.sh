@@ -1,3 +1,9 @@
+echo "ls /mnt/efs/shared_fs/determined..."
+ls /mnt/efs/shared_fs/determined/
+echo "ls /mnt/efs/shared_fs/determined/nb_fs/..."
+ls /mnt/efs/shared_fs/determined/nb_fs/
+echo "ls /mnt/efs/shared_fs/determined/nb_fs/weights/..."
+ls /mnt/efs/shared_fs/determined/nb_fs/weights/
 # wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
 # unzip annotations_trainval2017.zip 
 # mv annotations/instances_train2017.json /tmp
