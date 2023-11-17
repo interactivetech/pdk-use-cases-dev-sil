@@ -8,7 +8,7 @@ ls /mnt/efs/shared_fs/determined/nb_fs/weights/
 # unzip annotations_trainval2017.zip 
 # mv annotations/instances_train2017.json /tmp
 # mv annotations/instances_val2017.json /tmp
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+# pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 # pip install python_pachyderm==7.4.0 torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
 # pip install boto pycocotools attrdict progress torchsummary ipywidgets sahi transformers
 # apt-get update && apt-get install libgl1 -y
